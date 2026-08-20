@@ -13,7 +13,7 @@ tools that will require some initial configuration.
 1. setup aliases for python and pip - add this to your shell init script (.bashrc / .zhsrc / etc):
     ```
     alias python='/usr/bin/python3.11'
-    alias pip="python3 -m pip"
+    alias pip="/usr/bin/python3.11 -m pip"
     ```
 1. source your new init script:
     ```
@@ -25,8 +25,7 @@ tools that will require some initial configuration.
     ```
     and
     ```
-    pip='python3 -m pip'
-        /usr/bin/python3
+    pip='/usr/bin/python3.11 -m pip'
     ```
 1. update pip: run `pip install --upgrade pip`
 1. Install jupyter notebook packages:
@@ -79,7 +78,7 @@ tools that will require some initial configuration.
 ## Instructions for Assignment
 1. Install required packages for Practice0
     ```
-    pip install nltk bson pymongo
+    pip install matplotlib scipy pandas numpy bs4 nltk bson pymongo
     ```
 1. cd to the directory you cloned Practice0
 1. Please change the name of the notebook from Practice0.ipynb to [YOUR NETID].ipynb, so I can merge it in the central repository once you submit your pull request.
