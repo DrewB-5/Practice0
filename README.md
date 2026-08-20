@@ -13,7 +13,7 @@ tools that will require some initial configuration.
 1. setup aliases for python and pip - add this to your shell init script (.bashrc / .zhsrc / etc):
     ```
     alias python='/usr/bin/python3.11'
-    alias pip="python3 -m pip"
+    alias pip="/usr/bin/python3.11 -m pip"
     ```
 1. source your new init script:
     ```
